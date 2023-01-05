@@ -8,7 +8,7 @@
       color:#fd6e0a;
   }
   section{
-      margin-top: 110px;
+      margin-top: 130px;
   }
   
   .btn-primary{
@@ -24,7 +24,7 @@
   
   /* Header and Nav Style */
   .nav-titel{
-      font-weight: 800;
+      font-weight: 700;
       font-size: 45px;
   }
   
@@ -136,3 +136,31 @@
   
   
   /* Resume Styles */
+
+  .resume-content{
+    display: flex;
+    gap: 24px;
+  }
+.resome .titel{
+    color: #474747;
+    font-size: 22px;
+    color: #474747;
+    margin-bottom: 10px;
+}
+.resome .sub-titel{
+    color: #757575;
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.resome .description{
+    color: #757575;
+}
+.resume-item{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.resume-btn{
+    margin-top: 40px;
+    text-align: center;
+}
