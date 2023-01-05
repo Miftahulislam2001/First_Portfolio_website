@@ -1,0 +1,138 @@
+
+* {
+    margin:0;
+    font-family: "Open Sans";
+  }
+  
+  .text-primary{
+      color:#fd6e0a;
+  }
+  section{
+      margin-top: 110px;
+  }
+  
+  .btn-primary{
+      height: 54px;
+      border-radius: 5px;
+      color: #ffffff;
+      background-color:#fd6e0a ;
+      font-weight: 700;
+      font-size: 20px;
+      border: 0;
+      padding: 15px 35px;
+  }
+  
+  /* Header and Nav Style */
+  .nav-titel{
+      font-weight: 800;
+      font-size: 45px;
+  }
+  
+  nav{
+      display: flex;
+      justify-content: space-between;
+      margin: 30px 100px;
+  }
+  nav ul {
+      display: flex;
+      align-items: center;
+  
+  }
+  
+  nav li {
+      list-style: none;
+      margin-left: 50px;
+  }
+  
+  .header{
+      background-color: #FFF8F3 ;
+      background-image: url('../images/header_bg.png') , url('../images/developer.png');
+      background-repeat: no-repeat;
+      background-position: bottom right,left;
+      background-size: 450px , 55px;
+     
+  }
+  
+  /* bannar styles */
+  .bannar{
+      display: flex;
+      margin: 0 100px;
+      align-items: center;
+  }
+  .bannar-titel{
+      font-weight: 600;
+      font-size: 45px;
+      margin-bottom: 20px;
+  }
+  .bannar-sub-titel{
+      font-weight: 700;
+      font-size: 65px;
+  }
+  .bannar-dec{
+      color: #757575;
+      margin-bottom: 20px;
+  }
+  /* Main Section */
+  main{
+      max-width: 1140px;
+      margin: 0 auto;
+  }
+  /* About Section Start */
+  .about{
+      text-align: center;
+      margin-top: 110px;
+      background-color: #fff8f3;
+      border-radius: 10px;
+      padding: 130px 150px;
+  }
+  .section-title{
+     
+      margin-bottom: 30px;
+      font-weight: 700;
+      font-size: 35px;
+      text-align: center;
+  }
+  .section-dec{
+      color: #757575;
+      font-size: 18px;
+      margin-bottom: 30px;
+  }
+  
+  .about-info-container{
+      display: flex;
+      justify-content: space-around;
+  }
+   .about .info-title{
+      font-size: 16px;
+      color: #757575;
+  }
+  .info-dec{
+      font-weight: 600;
+      font-size: 18px;
+      color: #757575;
+     
+  }
+  
+  
+  .skills-container{
+      display: flex;
+      gap: 24px;
+  
+  }
+  .skils{
+      box-shadow: 0px 6px 50px rgba(0,0,0,0.06);
+      border-radius: 5px;
+      padding: 30px;
+  }
+  .skill-title{
+      font-weight: 600;
+      font-size: 20px;
+      margin-top: 30px;
+      margin-bottom: 20px;
+  }
+  .skill-dec{
+      color: #757575;
+  }
+  
+  
+  /* Resume Styles */
