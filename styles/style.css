@@ -19,7 +19,7 @@
       font-weight: 600;
       font-size: 20px;
       border: 0;
-      padding:10px 30px;
+      padding:8px 30px;
   }
   
   /* Header and Nav Style */
@@ -31,7 +31,7 @@
   nav{
       display: flex;
       justify-content: space-between;
-      margin: 30px 100px;
+      padding: 40px 200px;
   }
   nav ul {
       display: flex;
@@ -49,14 +49,14 @@
       background-image: url('../images/header_bg.png') , url('../images/developer.png');
       background-repeat: no-repeat;
       background-position: bottom right,left;
-      background-size: 550px , 50px;
+      background-size: 580px , 50px;
      
   }
   
   /* bannar styles */
   .bannar{
       display: flex;
-      margin: 0 100px;
+      margin: 0 200px;
       align-items: center;
   }
   .bannar-titel{
